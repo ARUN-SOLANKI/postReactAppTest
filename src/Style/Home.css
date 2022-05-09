@@ -1,0 +1,96 @@
+.Screen_header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  color: #c5c7ca;
+}
+
+.Screen_subHeader {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7f8084;
+  width: 580px;
+}
+
+.create-post {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #c5c7ca;
+}
+
+.Post-container {
+  border-radius: 8px;
+  border: 2px solid white;
+  padding: 24px 20px;
+  background: #27292d;
+}
+
+.post-input {
+  display: flex;
+  align-items: center;
+  background: #191920;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.circle-img {
+  background: #27292d;
+  display: flex;
+  align-items: center;
+  padding: 13px;
+  border-radius: 100%;
+}
+
+.circle-img-signup {
+  background-color: yellow;
+  display: flex;
+  padding: 13px;
+  justify-content: end;
+  /* padding: 13px; */
+  /* border-radius: 100%; */
+}
+.sign-inside {
+  display: flex;
+}
+
+/* .img-signup {
+  background-color: yellow;
+  height: 600px;
+  width: 200px;
+} */
+
+.postInputField {
+  background-color: rgba(0, 0, 0, 0%);
+  width: 90%;
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #7f8084;
+  border: none;
+}
+
+.postInputField:focus {
+  outline: none;
+}
+
+.post-btn {
+  width: 100px;
+  background: #4a96ff;
+  border-radius: 4px;
+  color: #fff;
+  padding: 12px 12px;
+  cursor: pointer;
+  margin-top: 15px;
+  border: none;
+}
+
+.coverbtn {
+  display: flex;
+  /* background-color: red; */
+  justify-content: flex-end;
+}
